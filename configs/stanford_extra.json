@@ -1,0 +1,90 @@
+{
+    "data_dir": "data/StanfordExtra_v12",
+    "annotations_name": "StanfordExtra_v12.json",
+    "train_split": "train_stanford_StanfordExtra_v12.npy",
+    "test_split": "test_stanford_StanfordExtra_v12.npy",
+    "img_norm_mean": [
+        0.485,
+        0.456,
+        0.406
+    ],
+    "img_norm_std": [
+        0.229,
+        0.224,
+        0.225
+    ],
+    "model_joints": [
+        14,
+        12,
+        12,
+        24,
+        23,
+        22,
+        10,
+        9,
+        8,
+        20,
+        19,
+        18,
+        25,
+        31,
+        34,
+        33,
+        35,
+        36,
+        37,
+        38
+    ],
+    "eval_keypoints": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+    ],
+    "kp_groups": {
+        "legs": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "tail": [
+            12,
+            13
+        ],
+        "ears": [
+            14,
+            15,
+            18,
+            19
+        ],
+        "face": [
+            16,
+            17
+        ]
+    }
+}

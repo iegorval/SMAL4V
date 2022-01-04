@@ -1,0 +1,20 @@
+{
+    "sequences_dir": "data/animalkey/cows/cows_training_set/_sequences",
+    "sequence_substring": "seq",
+    "img_ext": ".jpg",
+    "kp_ext": ".pkl",
+    "precompute_features": true,
+    "use_masks": false,
+    "use_keypoints": false,
+    "border": 0,
+    "num_kps": 30,
+    "synthetic": false,
+    "bboxes_path": "anno/bboxes.json",
+    "keypoints_dir": "anno/keypoints_gt",
+    "masks_dir": "anno/masks_osvos",
+    "split": "online",
+    "save_training": false,
+    "seq_names": [
+        "seq306_test"
+    ]
+}

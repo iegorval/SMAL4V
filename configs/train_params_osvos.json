@@ -1,0 +1,12 @@
+{
+    "seq_length": 1,
+    "seq_stride": 1,
+    "batch_size": 1,
+    "gpu_id": 0,
+    "sequence_dir": "../smalmv/data/animalkey/cows/cows_training_set/_sequences",
+    "save_dir": "anno/masks_osvos",
+    "bboxes_path": "anno/bboxes.json",
+    "keypoints_dir": "anno/keypoints_gt",
+    "masks_dir": "anno/masks_gt",
+    "model_dir": "models"
+}
